@@ -62,7 +62,7 @@ El `TaskListComponent` realiza la carga inicial en `ngOnInit()` y mantiene dos a
 ---
 
 
-## Errores encontrados y soluciones (resumen)
+## Errores encontrados y soluciones implementadas
 
 1) "Cannot find module '@ng-bootstrap/ng-bootstrap'"
 	- Causa: la dependencia no estaba instalada.
@@ -108,6 +108,4 @@ El `TaskListComponent` realiza la carga inicial en `ngOnInit()` y mantiene dos a
 - Añadir toasts de confirmación (Bootstrap toasts) para operaciones exitosas y errores.
 - Añadir pruebas unitarias para `TaskListComponent` y el servicio `Task`.
 
----
 
-Si quieres que implemente alguna de las mejoras anteriores o que verifique algo en tu entorno, dime cuál y lo hago.

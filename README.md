@@ -151,10 +151,15 @@ Este listado detalla los principales desafíos técnicos que surgieron durante e
     1.  `dotnet ef migrations add InitialCreate` (Para crear la primera migración)
     2.  `dotnet ef database update` (Para aplicar todas las migraciones pendientes a la base de datos)
 
-### 10. Repositorio público: razón de la elección
+### 10. Mejoras futuras
+En un futuro una de los aspectos más importantes que se puede añadir es la seguridad a través de roles y tokens.
+Una gestión hash para las contraseñas.
+De este modo dependiendo del rol podrá crear o gestionar las tareas. 
+
+### 11. Repositorio público: razón de la elección
 
 El repositorio es público porque:
-El revisor no tendrá problemas de permisos.
+No se requieren permisos.
 
 Permite examinar la evolución del código (commits).
 
