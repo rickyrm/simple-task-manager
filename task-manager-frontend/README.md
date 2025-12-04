@@ -61,24 +61,6 @@ El `TaskListComponent` realiza la carga inicial en `ngOnInit()` y mantiene dos a
 
 ---
 
-## Proxy de desarrollo (opcional, recomendado)
-
-Para evitar usar URLs absolutas y problemas CORS en desarrollo, crea `proxy.conf.json` en la raíz del frontend con:
-
-```json
-{
-	"/api": {
-		"target": "http://localhost:5121",
-		"secure": false,
-		"changeOrigin": true,
-		"logLevel": "info"
-	}
-}
-```
-
-Luego modifica `package.json` `start` script a: `ng serve --proxy-config proxy.conf.json` y en `task.ts` usa `private baseUrl = '/api/tasks'`.
-
----
 
 ## Errores encontrados y soluciones (resumen)
 
