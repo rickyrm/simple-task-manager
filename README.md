@@ -166,3 +166,9 @@ Permite examinar la evolución del código (commits).
 Facilita el acceso desde cualquier máquina.
 
 Muestra transparencia y profesionalidad.
+
+
+### 12. Otros
+
+Para una mayor comprensión del proyecto creado he indexado este repositorio con Deep Wiki, este que genera una explicación completa del repositorio.  
+Link de Deep Wiki: https://deepwiki.com/rickyrm/simple-task-manager
