@@ -6,7 +6,12 @@ namespace TaskManager.Application.Services
 {
     /// <summary>
     /// Servicio que implementa la lógica de negocio de las tareas.
-    /// Orquesta la comunicación entre DTOs y repositorio.
+    /// Responsabilidades:
+    /// - Orquestar las operaciones entre DTOs y repositorio.
+    /// - Mapear entre entidades de dominio (`TaskItem`) y DTOs.
+    /// - Aplicar reglas de negocio leves (validaciones que no pertenezcan al controller).
+    /// NOTE: la lógica compleja del dominio debería residir en las entidades o en servicios
+    /// de dominio; aquí mantenemos el servicio de aplicación como un coordinador.
     /// </summary>
     public class TaskService
     {

@@ -42,8 +42,8 @@ namespace TaskManager.Infrastructure.Repositories
                 query = query.Where(t => t.IsCompleted == isCompleted.Value);
 
             query = query.OrderByDescending(t => t.CreatedAt)
-                         .Skip((page - 1) * pageSize)
-                         .Take(pageSize);
+                        .Skip((page - 1) * pageSize)
+                        .Take(pageSize);
 
             return await query.ToListAsync();
         }

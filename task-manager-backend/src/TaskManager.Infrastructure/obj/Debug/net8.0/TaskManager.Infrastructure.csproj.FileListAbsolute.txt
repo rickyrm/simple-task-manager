@@ -32,3 +32,4 @@
 /home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Infrastructure/obj/Debug/net8.0/TaskManager.Infrastructure.pdb
 /home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Infrastructure/obj/Debug/net8.0/TaskManager.Infrastructure.genruntimeconfig.cache
 /home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Infrastructure/obj/Debug/net8.0/ref/TaskManager.Infrastructure.dll
+/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Infrastructure/obj/Debug/net8.0/TaskManager.Infrastructure.sourcelink.json

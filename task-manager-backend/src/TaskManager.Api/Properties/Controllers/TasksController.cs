@@ -4,6 +4,9 @@ using TaskManager.Application.Services;
 
 namespace TaskManager.Api.Controllers
 {
+    // Controller REST que expone los endpoints de tareas.
+    // Nota: los controllers deben ser delgados — delegan la mayor parte
+    // de la lógica a la capa de Application (`TaskService`).
     [ApiController]
     [Route("api/[controller]")]
     public class TasksController : ControllerBase
@@ -18,6 +21,8 @@ namespace TaskManager.Api.Controllers
         /// <summary>
         /// GET /api/tasks?isCompleted=true&page=1&pageSize=10
         /// Lista tareas con filtrado y paginación.
+        /// - Valida parámetros de consulta
+        /// - Devuelve DTOs listos para el cliente
         /// </summary>
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] bool? isCompleted, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
@@ -29,6 +34,8 @@ namespace TaskManager.Api.Controllers
         /// <summary>
         /// GET /api/tasks/{id}
         /// Obtiene una tarea por Id.
+        /// - 200: devuelve la tarea
+        /// - 404: no existe
         /// </summary>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
@@ -40,7 +47,9 @@ namespace TaskManager.Api.Controllers
 
         /// <summary>
         /// POST /api/tasks
-        /// Crea una nueva tarea.
+        /// Crea una nueva tarea. Valida el modelo usando DataAnnotations.
+        /// - 201: creado con `Location` apuntando a GET /api/tasks/{id}
+        /// - 400: modelo inválido
         /// </summary>
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] TaskCreateDto dto)
@@ -55,6 +64,9 @@ namespace TaskManager.Api.Controllers
         /// <summary>
         /// PUT /api/tasks/{id}
         /// Actualiza una tarea existente.
+        /// - 204: actualizado correctamente
+        /// - 400: modelo inválido
+        /// - 404: no existe
         /// </summary>
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] TaskUpdateDto dto)
@@ -71,6 +83,8 @@ namespace TaskManager.Api.Controllers
         /// <summary>
         /// DELETE /api/tasks/{id}
         /// Elimina una tarea por Id.
+        /// - 204: eliminado
+        /// - 404: no existe
         /// </summary>
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)

@@ -278,3 +278,4 @@
 /home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Api/obj/Debug/net8.0/TaskManager.Api.pdb
 /home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Api/obj/Debug/net8.0/TaskManager.Api.genruntimeconfig.cache
 /home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Api/obj/Debug/net8.0/ref/TaskManager.Api.dll
+/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Api/obj/Debug/net8.0/TaskManager.Api.sourcelink.json

@@ -5,7 +5,9 @@ namespace TaskManager.Infrastructure.Db
 {
     /// <summary>
     /// Contexto de EF Core para las tareas.
-    /// Contiene la tabla Tasks y su configuración.
+    /// - Define el DbSet `Tasks` que mapea la entidad `TaskItem`.
+    /// - Configuraciones (constraints, índices, defaults) se aplican en `OnModelCreating`.
+    /// La cadena de conexión y el proveedor (SQLite) se configuran en `Program.cs`.
     /// </summary>
     public class TaskDbContext : DbContext
     {
@@ -32,10 +34,11 @@ namespace TaskManager.Infrastructure.Db
                 entity.Property(e => e.IsCompleted)
                       .HasDefaultValue(false);
 
+                // `CreatedAt` por defecto con la marca de tiempo actual en SQLite.
                 entity.Property(e => e.CreatedAt)
                       .HasDefaultValueSql("CURRENT_TIMESTAMP");
                 
-                // Índice para filtrar rápido por IsCompleted
+                // Índice para filtrar rápido por `IsCompleted` en queries.
                 entity.HasIndex(e => e.IsCompleted);
             });
         }

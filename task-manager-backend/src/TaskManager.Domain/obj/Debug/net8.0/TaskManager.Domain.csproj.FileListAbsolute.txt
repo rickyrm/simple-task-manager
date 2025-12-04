@@ -20,3 +20,4 @@
 /home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/obj/Debug/net8.0/refint/TaskManager.Domain.dll
 /home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/obj/Debug/net8.0/TaskManager.Domain.pdb
 /home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/obj/Debug/net8.0/ref/TaskManager.Domain.dll
+/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/obj/Debug/net8.0/TaskManager.Domain.sourcelink.json
