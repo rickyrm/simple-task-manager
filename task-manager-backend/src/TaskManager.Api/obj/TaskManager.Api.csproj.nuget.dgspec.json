@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Api/TaskManager.Api.csproj": {}
+  },
+  "projects": {
+    "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Api/TaskManager.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Api/TaskManager.Api.csproj",
+        "projectName": "TaskManager.Api",
+        "projectPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Api/TaskManager.Api.csproj",
+        "packagesPath": "/home/rickyrm/.nuget/packages/",
+        "outputPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rickyrm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Application/TaskManager.Application.csproj": {
+                "projectPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Application/TaskManager.Application.csproj"
+              },
+              "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Infrastructure/TaskManager.Infrastructure.csproj": {
+                "projectPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Infrastructure/TaskManager.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Application/TaskManager.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Application/TaskManager.Application.csproj",
+        "projectName": "TaskManager.Application",
+        "projectPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Application/TaskManager.Application.csproj",
+        "packagesPath": "/home/rickyrm/.nuget/packages/",
+        "outputPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rickyrm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/TaskManager.Domain.csproj": {
+                "projectPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/TaskManager.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/TaskManager.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/TaskManager.Domain.csproj",
+        "projectName": "TaskManager.Domain",
+        "projectPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/TaskManager.Domain.csproj",
+        "packagesPath": "/home/rickyrm/.nuget/packages/",
+        "outputPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rickyrm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Infrastructure/TaskManager.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Infrastructure/TaskManager.Infrastructure.csproj",
+        "projectName": "TaskManager.Infrastructure",
+        "projectPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Infrastructure/TaskManager.Infrastructure.csproj",
+        "packagesPath": "/home/rickyrm/.nuget/packages/",
+        "outputPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rickyrm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/TaskManager.Domain.csproj": {
+                "projectPath": "/home/rickyrm/workspace/task-manager/task-manager-backend/src/TaskManager.Domain/TaskManager.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

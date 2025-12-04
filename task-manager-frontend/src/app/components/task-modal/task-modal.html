@@ -1,0 +1,27 @@
+<div class="modal-header">
+	<h5 class="modal-title">{{ task ? 'Editar tarea' : 'Nueva tarea' }}</h5>
+	<button type="button" class="btn-close" aria-label="Close" (click)="cancel()"></button>
+</div>
+<div class="modal-body">
+	<form [formGroup]="form" (ngSubmit)="submit()">
+		<div class="mb-3">
+			<label class="form-label">Título</label>
+			<input type="text" class="form-control" formControlName="title" />
+			<div *ngIf="form.controls.title.touched && form.controls.title.invalid" class="text-danger small">El título es obligatorio.</div>
+		</div>
+
+		<div class="mb-3">
+			<label class="form-label">Descripción</label>
+			<textarea class="form-control" rows="3" formControlName="description"></textarea>
+		</div>
+
+		<div class="form-check mb-3">
+			<input class="form-check-input" type="checkbox" id="isCompleted" formControlName="isCompleted" />
+			<label class="form-check-label" for="isCompleted">Completada</label>
+		</div>
+	</form>
+</div>
+<div class="modal-footer">
+	<button class="btn btn-secondary" type="button" (click)="cancel()">Cancelar</button>
+	<button class="btn btn-primary" type="button" (click)="submit()">Guardar</button>
+</div>

@@ -1,0 +1,15 @@
+/* App specific styles */
+
+.app-header {
+	background: #ffffff;
+	border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+.brand { font-weight: 600; font-size: 1.125rem; }
+
+.app-container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.top-actions { display:flex; gap:0.5rem; }

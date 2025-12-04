@@ -1,0 +1,1 @@
+//Este fichero permitirá manejar errores claros en Application

@@ -1,0 +1,1 @@
+En cada directorio se encuentra un README.md explicando com funciona esa estructura, las decisiones y los problemas que han surgido.

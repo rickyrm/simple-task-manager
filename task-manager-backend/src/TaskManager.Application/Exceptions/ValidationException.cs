@@ -1,0 +1,1 @@
+// Controla los errores de validación en la aplicación

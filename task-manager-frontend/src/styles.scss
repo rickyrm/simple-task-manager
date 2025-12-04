@@ -1,0 +1,30 @@
+/* Global styles and simple Bootstrap overrides */
+
+/* Bootstrap CSS is already included via `angular.json` styles array. */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #f8f9fa;
+	color: #212529;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Utility container for the app */
+.app-shell {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.app-main {
+	flex: 1 0 auto;
+	padding: 2rem 1rem;
+}
+
+/* Slightly increase card contrast */
+.card { border-radius: 0.5rem; }
+
