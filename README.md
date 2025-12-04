@@ -170,5 +170,5 @@ Muestra transparencia y profesionalidad.
 
 ### 12. Otros
 
-Para una mayor comprensión del proyecto creado he indexado este repositorio con Deep Wiki, este que genera una explicación completa del repositorio.  
+Para una mayor comprensión del proyecto, he indexado este repositorio con Deep Wiki, este genera una explicación completa del repositorio.  
 Link de Deep Wiki: https://deepwiki.com/rickyrm/simple-task-manager
